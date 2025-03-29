@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root{
+    --main-color:#F1F1F1;
+    --yellow:#EEC578;
+    --blue-gray:#9CBBC3;
+    --green-pastel:#6FC1C6;
+    --blue-pastel:#90C0E8;
+    --gray:#E9E9E9;
+}
+body{
+    font-family: "Nunito", sans-serif !important;
+    background-color: var(maine-color);
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+ul{
+    list-style: none;
+    margin: 0 !important;
+    
+}
+ul li{
+    margin-right: 1rem;
+}
+header{
+    font-size: 1rem;
+ 
+}
+.space{
+    height: var(--height);
+}
+.section-1 img{
+    border-radius: 50%;
+    width: 90%;
+    display: block;
+
+}
+
+.highlight {
+    color: var(--yellow); 
+}
+.underline {
+    position: relative;
+    display: inline-block;
+}
+.underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 5px;
+    background-color: var(--green-pastel);
+    border-radius: 3px;
+}
+.section-1 li{
+    font-size: 2rem;
+}
+
+    
+
+.section-2 .row{
+    background-color: #E9E9E9;
+    border-radius: 16px;
+    padding: 2.5rem 0;
+}
+
+.section-2 img{
+    width: 80%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 16px;
+}
